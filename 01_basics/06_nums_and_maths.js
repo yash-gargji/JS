@@ -28,8 +28,8 @@ console.log(Math.min(4,3,6,8))
 console.log((Math.random()*10) + 1);
 // Value will be between 0 and 1
 
-const min = 4;
-const max = 5;
+const min = 10;
+const max = 20;
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min)
 
