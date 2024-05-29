@@ -24,16 +24,17 @@ const myArr2 = new Array(1,2,3,4)
 // console.log(newArr)
 // this has become string 
 
-console.log("A ",myArr);
+// console.log("A ",myArr);
 
-const myn1 = myArr.slice(1,3)
+// const myn1 = myArr.slice(1,3)
 
-console.log(myn1)
+// console.log(myn1)
 
-console.log("B ",myArr);
+// console.log("B ",myArr);
 
-const myn2 = myArr.splice(1,3)
-console.log("C ",myArr)
-// important in slice the section of the array just copied 
-// in the splice the section from the just cut out and in this range is also included 
-console.log(myn2)
+// const myn2 = myArr.splice(1,3)
+// console.log("C ",myArr)
+// // important in slice the section of the array just copied 
+// // in the splice the section from the just cut out and in this range is also included 
+// console.log(myn2)
+
