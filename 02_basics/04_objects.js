@@ -60,3 +60,30 @@ console.log(Object.entries(tinder)) // important
 
 console.log(tinder.hasOwnProperty('isLoggedIn'))
 // used for determining a property exists in a object or not 
+
+const course = {
+    coursename: "js in hindi",
+    price: 999,
+    courseinstructor: "hitesh"
+}
+// course.courseinstructor
+
+const {courseinstructor: instrunctor} = course
+
+console.log(instrunctor);
+
+// const navbar = ({company}) => {
+  
+// }
+// navbar(company = "hitesh")
+
+// {
+//     "name": "hiesth",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+// [
+//     {},
+//     {},
+//     {}
+// ]
