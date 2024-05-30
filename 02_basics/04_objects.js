@@ -87,3 +87,4 @@ console.log(instrunctor);
 //     {},
 //     {}
 // ]
+// this is a type which will be recived from the api and tis is know as JSON

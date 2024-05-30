@@ -23,6 +23,7 @@ const js_user = {
 // console.log(js_user["email"])
 // console.log(js_user["full name"])
 // // console.log(typeof js_user.mySym)
+// this will return a string
 // console.log(js_user[mySym])
 // the values in the object will be accesed as key also
 

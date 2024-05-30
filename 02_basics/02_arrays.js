@@ -16,6 +16,7 @@ const dc_heroes = ["sueprman" , "batman" , "flash"]
 // console.log(all_heroes);
 
 // const all_heroes = [...marvel_heroes, ...dc_heroes];
+// this is split method
 // // will create a new array
 
 // console.log(all_heroes)

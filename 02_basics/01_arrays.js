@@ -35,6 +35,6 @@ const myArr2 = new Array(1,2,3,4)
 // const myn2 = myArr.splice(1,3)
 // console.log("C ",myArr)
 // // important in slice the section of the array just copied 
-// // in the splice the section from the just cut out and in this range is also included 
+// // in the splice the section from the array  just cut out and in this range is also included 
 // console.log(myn2)
 
