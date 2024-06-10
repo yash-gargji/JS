@@ -1,0 +1,66 @@
+title.style.borderRadius = '20px'
+'20px'
+document.getElementById("first-heading")
+null
+document.getElementById('firstHeading') 
+
+null
+document.getElementById('firstHeading') 
+
+null
+document.getElementById('title')
+<h1 id=​"title" class=​"heading" style=​"border-radius:​ 20px;​">​DOM learning on chai aur code​</h1>​
+document.getElementById('title').getAttribute('h1')
+null
+document.getElementById('title').getAttribute('class')
+'heading'
+document.getElementById('title').getAttribute('id')
+'title'
+document.getElementById('title').setAttribute('class','heading class')
+undefined
+//  it will alwa
+undefined
+document.getElementById('title').setAttribute('class','heading Class')
+undefined
+ 
+document.getElementById('title')
+<h1 id=​"title" class=​"heading Class" style=​"border-radius:​ 20px;​">​DOM learning on chai aur code​</h1>​
+const title = document.getElementById('title')
+undefined
+title.style.backgroundColor = 'green'
+'green'
+title.style.padding = 20px
+title.style.borderRadius = '20px'
+'20px'
+title.style.borderRadius = '20px'
+'20px'
+
+
+title.innnertext
+undefined
+title.innerText
+'DOM learning on chai aur code'
+// this will only give visible contnt
+undefined
+title.textContent
+'DOM learning on chai aur code  test text's
+title.innerHTML
+'DOM learning on chai aur code <span style="display: none;"> test text</span>'
+
+class will work as same 
+
+
+// the query selector will give the first element of that type and that 
+we can store that in a varaible and then applied another query selector on that 
+and now we can change that thing 
+
+queryselector all will give the node list 
+
+it is not a pure array 
+
+getelement with class name will give html collection 
+
+we will convert in the form of the array
+
+16:00 Important discussion about NodeList. A nodelist is a collection of document nodes which includes text nodes , attribute nodes and element nodes. A line break is also counted in nodelist but only first one. All subsequent line breaks are ignored by browse
+

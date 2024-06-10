@@ -1,0 +1,26 @@
+document.querySelector(Text)
+VM2109:1 Uncaught DOMException: Failed to execute 'querySelector' on 'Document': 'function Text() { [native code] }' is not a valid selector.
+    at <anonymous>:1:10
+(anonymous) @ VM2109:1Understand this error
+document.querySelector('h1')
+<h1 id=​"title" class=​"heading">​…​</h1>​
+const var = document.querySelector('h1')
+VM2247:1 Uncaught SyntaxError: Unexpected token 'var'Understand this error
+const k = document.querySelector('h1')
+undefined
+k.style.backgroundColor = #fff
+VM2440:1 Uncaught SyntaxError: Unexpected identifier '#fff'Understand this error
+k.style.backgroundColor = 'white'
+'white'
+k.style.backgroundColor = 'orange'
+'orange'
+const num = document.querySelectorAll('p')
+undefined
+num[0].style.color = 'green'
+'green'
+document.getElementsByClassName('heading')
+HTMLCollection [h1#title.heading, title: h1#title.heading]
+const arr = Array.from(document.getElementsByClassName('heading'))
+undefined
+arr[0].textContent = 'Hello'
+'Hello'
