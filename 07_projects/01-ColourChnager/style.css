@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  nav{
+     display: flex;
+     flex-wrap:  wrap ;
+     text-align: center;
+     flex-direction: row;
+     justify-content: space-around;
+     border: 1.5px solid black;
+     padding: 15px;
+     background-color: #F0F0F0;
+  }
+  a{
+    display: block;
+    color: black;
+    width: 30px 50px;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(207, 211, 221);
+    
+  }
+     
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+  
