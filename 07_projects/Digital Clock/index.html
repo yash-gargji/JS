@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <title>Your Local Time</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 1.5px solid black;
+        padding: 15px;
+        background-color: #f0f0f0;
+      }
+      a {
+        display: block;
+        color: black;
+        width: 30px 50px;
+        border: 1px solid black;
+        padding: 8px;
+        background-color: rgb(207, 211, 221);
+      }
+      .center {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #clock {
+        font-size: 40px;
+        background-color: orange;
+        padding: 20px 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a target="_blank" href="https://www.youtube.com/@chaiaurcode"
+        >Youtube channel</a
+      >
+    </nav>
+    <div class="center">
+      <div id="banner"><span>Your local time</span></div>
+      <div id="clock"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
