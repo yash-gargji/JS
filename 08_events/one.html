@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html events</title>
+</head>
+<body>
+     
+</body>
+ <!-- all the events runs sequentially -->
+  <script>
+    //  document.getElementById('owl').onclick = function(){
+    //      alert("owl")
+    //  }
+    // this has less advantages so we use this less 
+
+    // attachEvent()
+    // jQuery - on
+    //  old times
+
+    document.getElementById('owl').addEventListener('click',function (e){
+       
+    },false)
+    // third paramter is default 
+    // type, timestamp , defaultPrevented
+    // target, toElement ,srcElement ,currentatarget
+    // ClientX , ClientY ,screenX , screenY
+    // altkey , ctrkey , shuftkey , keyCode
+
+    // false gives event bubbling 
+
+    // like is there is a event on a child then in event bubbling then 
+    //  the first response will be taken from the child and then from its parent 
+    //  if there is any parent  which has a event listener with it 
+
+    // Now if we pass the third paramter as true then this is known as event capturing then first parent preference is given than to its child
+     
+    // if we write in function e.eventPropagation()
+    //  then it will stop this 
+
+    // only the child will be given prefernece 
+
+    // now we can prevent default 
+
+    // remove method 
+      removeIt.parentNode.removeChild(removeIt)
+  </script>
+</html>
